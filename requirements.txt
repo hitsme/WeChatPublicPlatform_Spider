@@ -1,0 +1,12 @@
+bs4
+lxml
+selenium
+requests
+zxing
+Pillow-PIL
+pillow
+qrcode
+SQLAlchemy
+MySQLdb
+PyMysqlDB
+CookieJar
