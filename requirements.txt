@@ -7,6 +7,5 @@ Pillow-PIL
 pillow
 qrcode
 SQLAlchemy
-MySQLdb
 PyMysqlDB
 CookieJar

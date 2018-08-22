@@ -2,7 +2,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column,String,Integer,Time,Boolean
-engine=create_engine('mysql+mysqldb://root:hitsme52035203@localhost:3306/mysql?charset=utf8')
+from constant import constant
+engine=create_engine(constant.connectMysqlUrl)
 Base=declarative_base()
 class login_url(Base):
     __tablename__='login_url'
