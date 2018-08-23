@@ -2,7 +2,7 @@
 #-*- coding:UTF-8 -*-
 import pymysql as MySQLdb
 def getConnectDB():
-    db= MySQLdb.connect(host = '127.0.0.1', port = 3306, user = 'root', passwd = 'hitsme52035203', db = 'mysql', charset="utf8")
+    db= MySQLdb.connect(host = '127.0.0.1', port = 3306, user = 'root', passwd = 'password', db = 'mysql', charset="utf8")
 
     return db
 def initWeChatSpiderLog():
